@@ -1,0 +1,13 @@
+
+Steps for running code to get Global best values.
+1.	Open all 5 .m files in matlab
+2.	Open main.m file, set N values (number of out comes), also set number of iterations for 1 run 
+3.	Also set Benchmark_Function_ID (ID will be set according to IEEE bus)
+4.	Now open main code.m file set number of runs (for good and precise result put maximum number of runs)
+5.	Also change the name of data base (i.e, save dataset_DOCR_3bus_FPSOGSA_EE_a=36.mat) for different data data base name will be changed.
+6.	Open bench mark function.m file to select and set IEEE bus settings (set TMS and PTS values)
+7.	Now open bench mark functions details. M files to set the dimensions and boundries for each relay (i.e upper and lower limits) 
+8.	Now open FPSOGSA.m file to select alpha value (a=xx), for FPSOGSA put Alpha from 0.1 to 0.9, for PSOGSA put alpha value =1 
+9.	Now run main.m code for different values of alpha to get different results.
+10.	After each run a values will be generated (x and y values) in works space, collect all the values for results.
+Note that: for each run change folder name (check step no 3).
