@@ -1,17 +1,6 @@
 clear all
 close all
 clc
-% global alpha
-% alpha=0.1*6
-% for run=1:2
-%    %alpha=0.1*i
-% tic;
-%     [Gbest,Val_Gbest_rec]=ORPD
-% time=toc;
-%     x(run,:)=[Gbest,min(Val_Gbest_rec),time];
-% save dataset
-% end
-
 for run=1:50 % numbeer of runs;
    %alpha=0.1*i
 tic;
